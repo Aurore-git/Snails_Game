@@ -1,0 +1,70 @@
+.Entête{
+	border: 3px solid black;
+	width:90%;
+	height:150px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+h1{
+	text-decoration:center;
+	text-decoration:underline;
+	font-size: 30px;
+}
+
+
+body {
+    margin:50px;
+	padding:0;
+    background-color: rgba(0, 0, 0, 0.459);
+    background-image: url("Prairie2.png");
+    background-repeat: no-repeat;
+   object-fit: cover;
+}
+
+
+
+
+
+#grille {
+	width: 1000px;
+	height: auto;
+}
+
+.displayNone { display: none; }
+
+
+
+.snails {
+	position: absolute;
+	z-index: 2;
+	left: 17px;
+	width: 80px;
+	height: 80px;
+}
+#snail-blue { top: 285px; }
+#snail-pink { top: 395px; }
+#snail-purple { top: 505px; }
+#snail-yellow { top: 615px; }
+#snail-green { top: 725px; }
+#snail-red { top: 835px; }
+
+.dices {
+	width:100px;
+	height:100px;
+	margin-top:200px;
+	margin-left:10px;
+	margin-right:10px;
+	position: absolute;
+	top: 800px;
+}
+
+#dice-one { left: 333px; }
+#dice-two { left: 500px; }
+
+.btn{font-family: comic-sans;
+	
+	padding: 10px;
+}
