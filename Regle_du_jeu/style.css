@@ -1,0 +1,20 @@
+h1{
+	text-decoration: underline;
+	text-align:center;
+	font-color: red;
+}
+
+
+h2{
+	text-decoration : underline;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+
+body{background-color:#669999;
+}
+
+p{ font-size: 20px; 
+    margin-left: 50px;
+    }
