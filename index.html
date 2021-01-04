@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Snail Game</title>
+		<link rel="icon"  href="Assets/images/snail/Escargot.jpeg" >
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Assets/style.css">
+		
+
+
+
+
+
+    </head>
+    
+	<body>
+
+		<div class="Entête">
+
+			<a  href="Regle_du_jeu/Règle du jeu.pdf" class="Règle">Règle du Jeu</a>
+			<center><h1> Jeu de l'escargot </h1><center>
+		
+		</div>
+
+
+		<div id="jeu">
+		
+			<img id="grille" src="Assets/images/bg/Prairie.png"/>
+			<div id="button" class="btn" onclick="resetGame();" ><button id="btn-new">NOUVELLE PARTIE</button></div>
+			<div><button id="goo" class="btn" onclick="roll();">LANCEZ LES DÉS</button></div>
+		
+			<img  id="dice-one" src="Assets/images/dice/dice.png" class="displayNone dices">
+			<img  id="dice-two" src="Assets/images/dice/dice.png" class="displayNone dices">
+			
+			<img  id="snail-blue" src="Assets/images/snail/snail-blue.png" class="displayNone snails">
+			<img  id="snail-pink" src="Assets/images/snail/snail-pink.png" class="displayNone snails">
+			<img  id="snail-purple" src="Assets/images/snail/snail-purple.png" class="displayNone snails">
+			<img  id="snail-yellow" src="Assets/images/snail/snail-yellow.png" class="displayNone snails">
+			<img  id="snail-green" src="Assets/images/snail/snail-green.png" class="displayNone snails">
+			<img  id="snail-red" src="Assets/images/snail/snail-red.png" class="displayNone snails">
+	
+		</div>
+
+		<script type="text/javascript" src="Assets/script.js"></script>
+
+    </body>
+	
+</html>
